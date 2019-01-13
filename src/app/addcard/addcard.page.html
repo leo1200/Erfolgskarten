@@ -1,0 +1,37 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Karte hinzufügen</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+
+    <ion-item>
+      <ion-label color="primary" stacked>Titel</ion-label>
+      <ion-input type="text" placeholder="" [(ngModel)]="title"></ion-input>
+    </ion-item>
+  
+    <ion-item>
+      <ion-label color="primary" stacked>Text der Vorderseite</ion-label>
+      <ion-textarea [(ngModel)]="front"></ion-textarea>
+    </ion-item>
+  
+    <ion-item>
+      <ion-label color="primary" stacked>Text der Rückseite</ion-label>
+      <ion-textarea [(ngModel)]="back"></ion-textarea>
+    </ion-item>
+    
+  </ion-list>
+
+  <ion-button (click)="bild()" expand="block">Bild wählen</ion-button>
+
+  <ion-img id="bild" [src]=quelle></ion-img>
+
+  <div id="load" class="container"><div class="loader"></div></div>
+
+  <div text-center>
+    <ion-button (click)="save()" color="success" size="large">✔</ion-button>
+    <ion-button (click)="discard()" color="danger" size="large">X</ion-button>
+    </div>
+</ion-content>

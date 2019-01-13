@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-row>
+    <ion-title>Karten</ion-title>
+    <ion-buttons><ion-button (click)="addcard()" routingDirection="forward">
+      <ion-icon name="add"></ion-icon>
+    </ion-button></ion-buttons>
+  </ion-row>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-list #slidingList>
+        <ion-item-sliding *ngFor="let card of cards; let i = index">
+            <ion-item-options side="right">
+                <button (click)="delete(i)"id="btn">Löschen</button>
+                <!-- <button id="btn2">Bearbeiten</button> -->
+              </ion-item-options>
+          <ion-item>{{card}}
+          </ion-item>
+        </ion-item-sliding>
+      </ion-list>
+</ion-content>

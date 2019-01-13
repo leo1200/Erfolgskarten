@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-row>
+      <ion-title>Themen</ion-title>
+      <ion-buttons><ion-button (click)="add()">
+        <ion-icon name="add"></ion-icon>
+      </ion-button></ion-buttons>
+    </ion-row>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list #slidingList>
+    <ion-item-sliding *ngFor="let thema of themen; let i = index">
+        <ion-item-options side="right">
+            <button (click)="confirm(i, thema)" id="btn">Löschen</button>
+          </ion-item-options>
+      <ion-item (click)="karten(thema)" routingDirection="forward" detail> {{thema}}
+      </ion-item>
+    </ion-item-sliding>
+  </ion-list>
+</ion-content>

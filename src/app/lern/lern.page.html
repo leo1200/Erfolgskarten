@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Lernen</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-item>
+        <ion-label>Thema</ion-label>
+        <ion-select [(ngModel)]="thema" (ionChange)="onChange($event)" #Select ok-text="speichern" cancel-text="nicht speichern" multiple="false">
+          <ion-select-option *ngFor="let thema of themen" [value]=thema>{{thema}}</ion-select-option>
+        </ion-select>
+      </ion-item>
+      <div id="elements">
+      <div class="progress-outer">
+          <div class="progress-inner" [style.width]="progress + '%'">
+            {{progress}} %
+          </div>
+      </div>
+
+        <div text-center>
+            <ion-button (click)="spielen()" color="success" size="large">Weiter spielen!</ion-button>
+            <ion-button (click)="reset()" color="danger" size="large"><ion-icon name="refresh"></ion-icon></ion-button>
+            </div>
+          </div>
+          
+          <ion-button fill="outline" expand="block" color="secondary" size="large">Workout</ion-button>
+</ion-content>

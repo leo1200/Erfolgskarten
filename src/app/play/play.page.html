@@ -1,0 +1,24 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Spielen</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+
+<ion-card id="karte" (click)="drehen()">
+  <ion-card-header>
+    <ion-card-title>{{titel}}</ion-card-title>
+  </ion-card-header>
+  <ion-img id="bild" [src]=quelle></ion-img>
+  <ion-card-content id="content">
+    <p>{{inhalt}}</p>
+  </ion-card-content>
+</ion-card>
+
+<div id="btns" text-center>
+<ion-button (click)="richtig()" color="success" size="large">✔</ion-button>
+<ion-button (click)="falsch()" color="danger" size="large">X</ion-button>
+</div>
+
+</ion-content>

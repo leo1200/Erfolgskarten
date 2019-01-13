@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="io.ionic.starter" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Erfolgskarten</name>
+    <description>Lernen mit Karteikarten.</description>
+    <author email="leonard.storcks@protonmail.com" href="deinesv.cf">Leonard Storcks</author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <preference name="ScrollEnabled" value="false" />
+    <preference name="android-minSdkVersion" value="19" />
+    <preference name="BackupWebStorage" value="none" />
+    <preference name="SplashMaintainAspectRatio" value="true" />
+    <preference name="FadeSplashScreenDuration" value="300" />
+    <preference name="ShowSplashScreenSpinner" value="false" />
+    <preference name="SplashShowOnlyFirstTime" value="false" />
+    <preference name="SplashScreen" value="screen" />
+    <preference name="SplashScreenDelay" value="3000" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+        <icon density="ldpi" src="resources/android/icon/drawable-ldpi-icon.png" />
+        <icon density="mdpi" src="resources/android/icon/drawable-mdpi-icon.png" />
+        <icon density="hdpi" src="resources/android/icon/drawable-hdpi-icon.png" />
+        <icon density="xhdpi" src="resources/android/icon/drawable-xhdpi-icon.png" />
+        <icon density="xxhdpi" src="resources/android/icon/drawable-xxhdpi-icon.png" />
+        <icon density="xxxhdpi" src="resources/android/icon/drawable-xxxhdpi-icon.png" />
+        <splash density="land-ldpi" src="resources/android/splash/drawable-land-ldpi-screen.png" />
+        <splash density="land-mdpi" src="resources/android/splash/drawable-land-mdpi-screen.png" />
+        <splash density="land-hdpi" src="resources/android/splash/drawable-land-hdpi-screen.png" />
+        <splash density="land-xhdpi" src="resources/android/splash/drawable-land-xhdpi-screen.png" />
+        <splash density="land-xxhdpi" src="resources/android/splash/drawable-land-xxhdpi-screen.png" />
+        <splash density="land-xxxhdpi" src="resources/android/splash/drawable-land-xxxhdpi-screen.png" />
+        <splash density="port-ldpi" src="resources/android/splash/drawable-port-ldpi-screen.png" />
+        <splash density="port-mdpi" src="resources/android/splash/drawable-port-mdpi-screen.png" />
+        <splash density="port-hdpi" src="resources/android/splash/drawable-port-hdpi-screen.png" />
+        <splash density="port-xhdpi" src="resources/android/splash/drawable-port-xhdpi-screen.png" />
+        <splash density="port-xxhdpi" src="resources/android/splash/drawable-port-xxhdpi-screen.png" />
+        <splash density="port-xxxhdpi" src="resources/android/splash/drawable-port-xxxhdpi-screen.png" />
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+        <icon height="57" src="resources/ios/icon/icon.png" width="57" />
+        <icon height="114" src="resources/ios/icon/icon@2x.png" width="114" />
+        <icon height="40" src="resources/ios/icon/icon-40.png" width="40" />
+        <icon height="80" src="resources/ios/icon/icon-40@2x.png" width="80" />
+        <icon height="120" src="resources/ios/icon/icon-40@3x.png" width="120" />
+        <icon height="50" src="resources/ios/icon/icon-50.png" width="50" />
+        <icon height="100" src="resources/ios/icon/icon-50@2x.png" width="100" />
+        <icon height="60" src="resources/ios/icon/icon-60.png" width="60" />
+        <icon height="120" src="resources/ios/icon/icon-60@2x.png" width="120" />
+        <icon height="180" src="resources/ios/icon/icon-60@3x.png" width="180" />
+        <icon height="72" src="resources/ios/icon/icon-72.png" width="72" />
+        <icon height="144" src="resources/ios/icon/icon-72@2x.png" width="144" />
+        <icon height="76" src="resources/ios/icon/icon-76.png" width="76" />
+        <icon height="152" src="resources/ios/icon/icon-76@2x.png" width="152" />
+        <icon height="167" src="resources/ios/icon/icon-83.5@2x.png" width="167" />
+        <icon height="29" src="resources/ios/icon/icon-small.png" width="29" />
+        <icon height="58" src="resources/ios/icon/icon-small@2x.png" width="58" />
+        <icon height="87" src="resources/ios/icon/icon-small@3x.png" width="87" />
+        <icon height="1024" src="resources/ios/icon/icon-1024.png" width="1024" />
+        <splash height="1136" src="resources/ios/splash/Default-568h@2x~iphone.png" width="640" />
+        <splash height="1334" src="resources/ios/splash/Default-667h.png" width="750" />
+        <splash height="2208" src="resources/ios/splash/Default-736h.png" width="1242" />
+        <splash height="1242" src="resources/ios/splash/Default-Landscape-736h.png" width="2208" />
+        <splash height="1536" src="resources/ios/splash/Default-Landscape@2x~ipad.png" width="2048" />
+        <splash height="2048" src="resources/ios/splash/Default-Landscape@~ipadpro.png" width="2732" />
+        <splash height="768" src="resources/ios/splash/Default-Landscape~ipad.png" width="1024" />
+        <splash height="2048" src="resources/ios/splash/Default-Portrait@2x~ipad.png" width="1536" />
+        <splash height="2732" src="resources/ios/splash/Default-Portrait@~ipadpro.png" width="2048" />
+        <splash height="1024" src="resources/ios/splash/Default-Portrait~ipad.png" width="768" />
+        <splash height="960" src="resources/ios/splash/Default@2x~iphone.png" width="640" />
+        <splash height="480" src="resources/ios/splash/Default~iphone.png" width="320" />
+        <splash height="2732" src="resources/ios/splash/Default@2x~universal~anyany.png" width="2732" />
+    </platform>
+    <platform name="browser">
+        <preference name="SplashScreen" value="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/PjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDU5IDU5IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA1OSA1OTsiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxsaW5lIHN0eWxlPSJmaWxsOm5vbmU7c3Ryb2tlOiM0MjRBNjA7c3Ryb2tlLXdpZHRoOjI7c3Ryb2tlLWxpbmVjYXA6cm91bmQ7c3Ryb2tlLW1pdGVybGltaXQ6MTA7IiB4MT0iNDguNTE1IiB5MT0iMTMuNjE1IiB4Mj0iNTIuMDUiIHkyPSIxMC4wOCIvPjxyZWN0IHg9IjUwLjQ2NCIgeT0iNS42NjUiIHRyYW5zZm9ybT0ibWF0cml4KDAuNzA3MSAtMC43MDcxIDAuNzA3MSAwLjcwNzEgOS41MzIyIDQwLjM0MzMpIiBzdHlsZT0iZmlsbDojQUZCNkJCOyIgd2lkdGg9IjYuMDAxIiBoZWlnaHQ9IjYiLz48cGF0aCBzdHlsZT0iZmlsbDojMzA4M0M5OyIgZD0iTTMwLjEzLDZjLTIuMDA4LDAtMy45NiwwLjIzNS01LjgzNywwLjY2NlYxM2gtOGMtMC41NTMsMC0xLDAuNDQ3LTEsMXMwLjQ0NywxLDEsMWg4djVoLTEzYy0wLjU1MywwLTEsMC40NDctMSwxczAuNDQ3LDEsMSwxaDEzdjVoLTE4Yy0wLjU1MywwLTEsMC40NDctMSwxczAuNDQ3LDEsMSwxaDE4djVoLTIyYy0wLjU1MywwLTEsMC40NDctMSwxczAuNDQ3LDEsMSwxaDIydjVoLTE2Yy0wLjU1MywwLTEsMC40NDctMSwxczAuNDQ3LDEsMSwxaDE2djVoLTEwYy0wLjU1MywwLTEsMC40NDctMSwxczAuNDQ3LDEsMSwxaDEwdjcuMzM0QzI2LjE3LDU3Ljc2NSwyOC4xMjIsNTgsMzAuMTMsNThjMTQuMzU5LDAsMjYtMTEuNjQxLDI2LTI2UzQ0LjQ4OSw2LDMwLjEzLDZ6Ii8+PHBhdGggc3R5bGU9ImZpbGw6IzJCNzdBQTsiIGQ9Ik00NCwyMy4xNzJjLTAuMzQ4LTAuMzQ2LTAuODk2LTAuMzktMS4yOTMtMC4xMDRMMjkuNzYsMzIuNDMzYy0wLjg0NCwwLjYxNC0xLjM3NSwxLjU2My0xLjQ1NiwyLjYwNHMwLjI5NiwyLjA2LDEuMDMzLDIuNzk3YzAuNjczLDAuNjczLDEuNTY3LDEuMDQ0LDIuNTE4LDEuMDQ0YzEuMTM4LDAsMi4yMTYtMC41NDksMi44ODYtMS40N2w5LjM2My0xMi45NDRDNDQuMzkxLDI0LjA2Nyw0NC4zNDgsMjMuNTE5LDQ0LDIzLjE3MnoiLz48cGF0aCBzdHlsZT0iZmlsbDojRUZDRTRBOyIgZD0iTTQzLDIxLjI5M2MtMC4zNDgtMC4zNDYtMC44OTYtMC4zOS0xLjI5My0wLjEwNEwyOC43NiwzMC41NTRjLTAuODQ0LDAuNjE0LTEuMzc1LDEuNTYzLTEuNDU2LDIuNjA0czAuMjk2LDIuMDYsMS4wMzMsMi43OTdDMjkuMDEsMzYuNjI5LDI5LjkwNCwzNywzMC44NTQsMzdjMS4xMzgsMCwyLjIxNi0wLjU0OSwyLjg4Ni0xLjQ3bDkuMzYzLTEyLjk0NEM0My4zOTEsMjIuMTg4LDQzLjM0OCwyMS42NCw0MywyMS4yOTN6Ii8+PHBhdGggc3R5bGU9ImZpbGw6IzQyNEE2MDsiIGQ9Ik0yOC4yOTMsNi4wODRDMjguOTU0LDYuMDM0LDI5LjYxOSw2LDMwLjI5Myw2czEuMzM5LDAuMDM0LDIsMC4wODRWM2gyLjVjMC44MjgsMCwxLjUtMC42NzIsMS41LTEuNXYwYzAtMC44MjgtMC42NzItMS41LTEuNS0xLjVoLTljLTAuODI4LDAtMS41LDAuNjcyLTEuNSwxLjV2MGMwLDAuODI4LDAuNjcyLDEuNSwxLjUsMS41aDIuNVY2LjA4NHoiLz48Zz48cGF0aCBzdHlsZT0iZmlsbDojQTFDOEVDOyIgZD0iTTMwLjI5Myw1Yy0wLjU1MywwLTEsMC40NDctMSwxdjNjMCwwLjU1MywwLjQ0NywxLDEsMXMxLTAuNDQ3LDEtMVY2QzMxLjI5Myw1LjQ0NywzMC44NDYsNSwzMC4yOTMsNXoiLz48cGF0aCBzdHlsZT0iZmlsbDojQTFDOEVDOyIgZD0iTTMwLjI5Myw1NGMtMC41NTMsMC0xLDAuNDQ3LTEsMXYzYzAsMC41NTMsMC40NDcsMSwxLDFzMS0wLjQ0NywxLTF2LTNDMzEuMjkzLDU0LjQ0NywzMC44NDYsNTQsMzAuMjkzLDU0eiIvPjxwYXRoIHN0eWxlPSJmaWxsOiNBMUM4RUM7IiBkPSJNNTYuMTMsMzFoLTNjLTAuNTUzLDAtMSwwLjQ0Ny0xLDFzMC40NDcsMSwxLDFoM2MwLjU1MywwLDEtMC40NDcsMS0xUzU2LjY4MywzMSw1Ni4xMywzMXoiLz48cGF0aCBzdHlsZT0iZmlsbDojQTFDOEVDOyIgZD0iTTQzLjYzLDguNjE3Yy0wLjQ3OS0wLjI3Ny0xLjA5LTAuMTEyLTEuMzY2LDAuMzY2bC0xLjUsMi41OTljLTAuMjc2LDAuNDc5LTAuMTEyLDEuMDksMC4zNjYsMS4zNjZjMC4xNTcsMC4wOTEsMC4zMjksMC4xMzQsMC40OTksMC4xMzRjMC4zNDYsMCwwLjY4Mi0wLjE4LDAuODY3LTAuNWwxLjUtMi41OTlDNDQuMjcyLDkuNTA1LDQ0LjEwOCw4Ljg5Myw0My42Myw4LjYxN3oiLz48cGF0aCBzdHlsZT0iZmlsbDojQTFDOEVDOyIgZD0iTTUzLjE0Niw0NC4xMzRsLTIuNTk4LTEuNWMtMC40NzgtMC4yNzctMS4wOS0wLjExNC0xLjM2NiwwLjM2NmMtMC4yNzYsMC40NzktMC4xMTIsMS4wOSwwLjM2NiwxLjM2NmwyLjU5OCwxLjVDNTIuMzA0LDQ1Ljk1Nyw1Mi40NzUsNDYsNTIuNjQ1LDQ2YzAuMzQ2LDAsMC42ODItMC4xNzksMC44NjctMC41QzUzLjc4OSw0NS4wMjEsNTMuNjI1LDQ0LjQxLDUzLjE0Niw0NC4xMzR6Ii8+PHBhdGggc3R5bGU9ImZpbGw6I0ExQzhFQzsiIGQ9Ik00Mi40OTYsNTEuNDE5Yy0wLjI3Ny0wLjQ4LTAuODktMC42NDQtMS4zNjYtMC4zNjZjLTAuNDc5LDAuMjc2LTAuNjQzLDAuODg4LTAuMzY2LDEuMzY2bDEuNSwyLjU5OGMwLjE4NiwwLjMyMSwwLjUyMSwwLjUsMC44NjcsMC41YzAuMTcsMCwwLjM0Mi0wLjA0MywwLjQ5OS0wLjEzNGMwLjQ3OS0wLjI3NiwwLjY0My0wLjg4OCwwLjM2Ni0xLjM2Nkw0Mi40OTYsNTEuNDE5eiIvPjxwYXRoIHN0eWxlPSJmaWxsOiNBMUM4RUM7IiBkPSJNNTAuMDUsMjEuNWMwLjE3LDAsMC4zNDItMC4wNDMsMC40OTktMC4xMzRsMi41OTgtMS41YzAuNDc5LTAuMjc2LDAuNjQzLTAuODg4LDAuMzY2LTEuMzY2Yy0wLjI3Ni0wLjQ3OS0wLjg5LTAuNjQ0LTEuMzY2LTAuMzY2bC0yLjU5OCwxLjVDNDkuMDcsMTkuOTEsNDguOTA2LDIwLjUyMSw0OS4xODMsMjFDNDkuMzY4LDIxLjMyMSw0OS43MDQsMjEuNSw1MC4wNSwyMS41eiIvPjwvZz48Zz48L2c+PGc+PC9nPjxnPjwvZz48Zz48L2c+PGc+PC9nPjxnPjwvZz48Zz48L2c+PGc+PC9nPjxnPjwvZz48Zz48L2c+PGc+PC9nPjxnPjwvZz48Zz48L2c+PGc+PC9nPjxnPjwvZz48L3N2Zz4=" />
+    </platform>
+    <plugin name="cordova-plugin-whitelist" spec="1.3.3" />
+    <plugin name="cordova-plugin-statusbar" spec="2.4.2" />
+    <plugin name="cordova-plugin-device" spec="2.0.2" />
+    <plugin name="cordova-plugin-ionic-webview" spec="^2.0.0" />
+    <plugin name="cordova-plugin-ionic-keyboard" spec="^2.0.5" />
+    <plugin name="cordova-sqlite-storage" spec="2.4.0" />
+    <plugin name="cordova-plugin-file" spec="6.0.1" />
+    <plugin name="cordova-plugin-camera" spec="4.0.3" />
+    <plugin name="cordova-plugin-splashscreen" spec="^5.0.2" />
+    <engine name="ios" spec="4.5.5" />
+    <engine name="android" spec="7.1.1" />
+    <engine name="browser" spec="5.0.4" />
+</widget>
